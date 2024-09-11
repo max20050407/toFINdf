@@ -7,6 +7,9 @@ import { User } from './2user/user';
 function App() {
   return (
     <div className={styles.App}>
+      <div className={styles.Header}> <Header></Header> </div>
+      <div   className={styles.Stat}>   <Stat></Stat>   </div>
+      <div   className={styles.User}>   <User></User>   </div>
     </div>
   );
 }

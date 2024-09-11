@@ -1,11 +1,11 @@
 import styles from './block.module.css'
 
-import { Block } from './block/block';
-
 export function Block(){
     return(
         <div className={styles.Block}>
-            
+            <div className={styles.ava}>ТУТ БУДЕТ ПИКЧА</div>
+            <div className={styles.title}>НАЗВАНИЕ</div>
+            <div className={styles.progress}>progress</div>
         </div>
     )
 }
